@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/greencash/static/js/runtime~main.391b5f91.js"
   },
   {
-    "revision": "b90015849972ce7f62029fe6338d1c84",
+    "revision": "3c8a215333f6f089769e92051321df76",
     "url": "/greencash/index.html"
   }
 ];
