@@ -8,11 +8,10 @@ class App extends Component {
   constructor(props) {
     super(props);
     // Don't call this.setState() here!
-    this.state = { bottle: 0, can: 0, recycle: 0, str: '' };
+    this.state = { bottle: 0, can: 0, str: '' };
     this.handleClick = this.handleClick.bind(this);
     this.handleCan = this.handleCan.bind(this);
     this.handleBottle = this.handleBottle.bind(this);
-    this.handleRecycle = this.handleRecycle.bind(this);
   }
 
   handleClick() {
@@ -28,7 +27,6 @@ class App extends Component {
       content: {
         bottle: this.state.bottle,
         can: this.state.can,
-        recycle: this.state.recycle
       },
       time: (new Date()).getTime()
     })
@@ -60,10 +58,6 @@ class App extends Component {
     this.setState({ bottle: e.target.value });
   }
 
-  handleRecycle(e) {
-    this.setState({ recycle: e.target.value });
-  }
-
   render() {
     return (
       <div className="App">
@@ -90,26 +84,19 @@ class App extends Component {
                   <FormGroup
                     controlId="formBasicText"
                   >
-                    <ControlLabel>Amount of can</ControlLabel>
+                    <ControlLabel>Amount of Cans</ControlLabel>
                     <FormControl
                       type="number"
                       value={this.state.can}
                       placeholder="0"
                       onChange={this.handleCan}
                     />
-                    <ControlLabel>Amount of bottle</ControlLabel>
+                    <ControlLabel>Amount of Bottles</ControlLabel>
                     <FormControl
                       type="number"
                       value={this.state.bottle}
                       placeholder="0"
                       onChange={this.handleBottle}
-                    />
-                    <ControlLabel>Amount of recycle</ControlLabel>
-                    <FormControl
-                      type="number"
-                      value={this.state.recycle}
-                      placeholder="0"
-                      onChange={this.handleRecycle}
                     />
                   </FormGroup>
                 </form>
