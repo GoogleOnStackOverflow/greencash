@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "16ecd7f1a22906055ad2",
+    "revision": "d559b5c5c9ed87af056e",
     "url": "/greencash/static/css/main.dee23a84.chunk.css"
   },
   {
-    "revision": "16ecd7f1a22906055ad2",
-    "url": "/greencash/static/js/main.16ecd7f1.chunk.js"
+    "revision": "d559b5c5c9ed87af056e",
+    "url": "/greencash/static/js/main.d559b5c5.chunk.js"
   },
   {
     "revision": "0932d5f6648480eea43f",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/greencash/static/js/runtime~main.391b5f91.js"
   },
   {
-    "revision": "3c8a215333f6f089769e92051321df76",
+    "revision": "e589dbeb4222662fb1b32f3c40aa72c5",
     "url": "/greencash/index.html"
   }
 ];
