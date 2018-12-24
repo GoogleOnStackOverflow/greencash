@@ -87,6 +87,7 @@ class App extends Component {
                     <ControlLabel>Amount of Cans</ControlLabel>
                     <FormControl
                       type="number"
+                      min="0"
                       value={this.state.can}
                       placeholder="0"
                       onChange={this.handleCan}
@@ -94,6 +95,7 @@ class App extends Component {
                     <ControlLabel>Amount of Bottles</ControlLabel>
                     <FormControl
                       type="number"
+                      min="0"
                       value={this.state.bottle}
                       placeholder="0"
                       onChange={this.handleBottle}
