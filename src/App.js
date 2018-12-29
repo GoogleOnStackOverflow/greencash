@@ -24,7 +24,7 @@ class App extends Component {
 
     let qr_str = JSON.stringify({
       info: machineInfo,
-      content: {
+      recycle: {
         bottle: this.state.bottle,
         can: this.state.can,
       },
