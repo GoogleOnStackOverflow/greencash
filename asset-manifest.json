@@ -1,13 +1,13 @@
 {
   "main.css": "/greencash/static/css/main.dee23a84.chunk.css",
-  "main.js": "/greencash/static/js/main.26dbeff9.chunk.js",
-  "main.js.map": "/greencash/static/js/main.26dbeff9.chunk.js.map",
-  "static/js/1.0932d5f6.chunk.js": "/greencash/static/js/1.0932d5f6.chunk.js",
-  "static/js/1.0932d5f6.chunk.js.map": "/greencash/static/js/1.0932d5f6.chunk.js.map",
+  "main.js": "/greencash/static/js/main.4388becc.chunk.js",
+  "main.js.map": "/greencash/static/js/main.4388becc.chunk.js.map",
+  "static/js/1.334fc9c7.chunk.js": "/greencash/static/js/1.334fc9c7.chunk.js",
+  "static/js/1.334fc9c7.chunk.js.map": "/greencash/static/js/1.334fc9c7.chunk.js.map",
   "runtime~main.js": "/greencash/static/js/runtime~main.391b5f91.js",
   "runtime~main.js.map": "/greencash/static/js/runtime~main.391b5f91.js.map",
   "static/css/main.dee23a84.chunk.css.map": "/greencash/static/css/main.dee23a84.chunk.css.map",
   "index.html": "/greencash/index.html",
-  "precache-manifest.be10c80c8feada66816aa1431e11767b.js": "/greencash/precache-manifest.be10c80c8feada66816aa1431e11767b.js",
+  "precache-manifest.0a7e10d18453431b42eb8b6b31af221b.js": "/greencash/precache-manifest.0a7e10d18453431b42eb8b6b31af221b.js",
   "service-worker.js": "/greencash/service-worker.js"
 }
